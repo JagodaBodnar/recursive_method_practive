@@ -16,12 +16,12 @@ public class Main {
         return calculateFactorial(n-1) * n;
     }
 
-    //    Write a Java recursive method to calculate the sum of all numbers from 1 to n.
+    //Write a Java recursive method to calculate the sum of all numbers from 1 to n.
     public static long calculateSumOfNumbersFrom1ToN(int n){
         if(n == 1){
             return 1;
         }
-       return (int) (calculateSumOfNumbersFrom1ToN(n-1) + n);
+       return (calculateSumOfNumbersFrom1ToN(n-1) + n);
     }
 
 }
