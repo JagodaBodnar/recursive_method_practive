@@ -3,8 +3,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("args = " + calculateFactorial(4));
         System.out.println("args = " + calculateFactorial(12));
-        System.out.println("args = " + calculateSumOfNumbersFrom1ToN(3));;
-        System.out.println("args = " + calculateSumOfNumbersFrom1ToN(10));;
+        System.out.println("args = " + calculateSumOfNumbersFrom1ToN(3));
+        System.out.println("args = " + calculateSumOfNumbersFrom1ToN(10));
     }
 
     //Write a Java recursive method to calculate the factorial of a given positive integer.
